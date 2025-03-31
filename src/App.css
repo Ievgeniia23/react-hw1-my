@@ -1,11 +1,57 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+} */
+
+@import url("./fonts/fonts.css");
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media (min-width: 375px) {
+    max-width: 375px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+    padding: 32px;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+    flex-direction: row;
+    gap: 32px;
+  }
 }
 
-.logo {
+:root {
+  --poppins-reg: "Poppins-Regular", sans-serif;
+  --poppins-bold: "Poppins-Bold", sans-serif;
+  --gilroy-reg: "Gilroy-Regular", sans-serif;
+  --gilroy-bold: "Gilroy-Bold", sans-serif;
+
+  --color-black: #2f2f2f;
+  --color-darkblue: #323f47;
+  --color-lightgreen: #9be1a0;
+  --color-lightgrey: #f0eff4;
+  --color-white: #ffffff;
+
+  --hover-green: #87d28d;
+  --error-color: #ef5050;
+
+  --input-inactive-focus-col: rgba(47, 47, 47, 0.2);
+  --input-active-col: rgba(47, 47, 47, 0.4);
+}
+
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +85,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

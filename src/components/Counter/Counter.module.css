@@ -1,0 +1,31 @@
+.counterWrapper {
+    background-color: rgb(148, 177, 167);
+    min-width: 500px;
+    border: solid 1px rgb(105, 99, 99);
+    border-radius: 6px;
+    transform: rotateY('angle');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 24px;
+}
+.btnPlus {
+    background-color: rgb(11, 146, 105);
+    min-width: 60px;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 300;
+}
+
+.btnMinus {
+    background-color: rgb(92, 15, 68);
+    min-width: 60px;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 300;
+}
