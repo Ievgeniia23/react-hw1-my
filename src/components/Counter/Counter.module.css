@@ -3,12 +3,13 @@
     min-width: 500px;
     border: solid 1px rgb(105, 99, 99);
     border-radius: 6px;
-    transform: rotateY('angle');
+    /* transform: rotateY('angle'); */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
     font-size: 24px;
+    margin-bottom: 20px;
 }
 .btnPlus {
     background-color: rgb(11, 146, 105);

@@ -1,19 +1,19 @@
 import { useState } from "react";
+import css from "./ThemeSwitcher.module.css"
 
 const ThemeSwitcher = () => {
   const [isDark, setIsDark] = useState(false);
 
   return (
-    <div
+    <div className={css.switcherWrapper}
       style={{
         background: isDark ? "black" : "white",
         color: isDark ? "white" : "black",
         width: "800px",
-        padding: "20px",
-      }}
+             }}
     >
-      <p>Theme:{isDark ? "Dark" : "Light"} </p>
-      <button onClick={() => setIsDark(!isDark)}>Switch the theme</button>
+      <p>Theme: {isDark ? "Dark" : "Light"} </p>
+      <button className={css.btnSwitcher} onClick={() => setIsDark(!isDark)}>Switch the theme</button>
     </div>
   );
 

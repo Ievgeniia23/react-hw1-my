@@ -1,0 +1,25 @@
+ 
+ 
+ .switcherWrapper {
+    background-color: rgb(148, 177, 167);
+    max-width: 500px;
+    border: solid 1px rgb(105, 99, 99);
+    border-radius: 6px;
+    /* transform: rotateY('angle'); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 24px;
+    margin-bottom: 20px;
+      
+    }
+
+    .btnSwitcher {
+    font-size: 12px;
+    padding: 8px;
+    border: solid 1px grey;
+    border-radius: 6px;
+    background-color: rgb(180, 219, 238);
+
+}

@@ -5,3 +5,22 @@
     height:100%;
     border-radius: 16px;
 }
+
+.btnModal {
+font-size: 12px;
+    padding: 8px;
+    border: solid 1px grey;
+    border-radius: 6px;
+    background-color: rgb(155, 133, 175);
+    margin-bottom: 20px;
+}
+
+.styleModal {
+    max-width: 400px;
+    font-size: 12px;
+    padding: 8px;
+    /* border: solid 1px grey;
+    border-radius: 6px; */
+    background-color: rgb(155, 133, 175);
+    margin-bottom: 20px;
+}
